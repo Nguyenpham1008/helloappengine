@@ -9,5 +9,6 @@ public class HelloAppEngineServlet extends HttpServlet {
 		resp.setContentType("text/plain");
 		resp.getWriter().println("Hello Every Body abc");
 		resp.getWriter().println("test2");
+		resp.getWriter().println("test3");
 	}
 }
